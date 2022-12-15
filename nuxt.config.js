@@ -21,6 +21,11 @@ export default {
     '@/assets/style/main.scss',
   ],
 
+  /*
+  ** Customize the progress-bar color
+  */
+  loading: { color: '#39b982' },
+
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
 
@@ -37,7 +42,16 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/buefy
     'nuxt-buefy',
+    '@nuxtjs/google-fonts'
   ],
+
+  googleFonts: {
+    prefetch: true,
+    families: {
+      Cabin: true,
+      Montserrat: true
+    }
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},

@@ -1,6 +1,8 @@
 <template>
   <section class="section">
     <div class="columns is-mobile">
+      <h1>I am the title</h1>
+      <p>I am some other text that's important too</p>
       <card title="Free" icon="github">
         Open source on <a href="https://github.com/buefy/buefy"> GitHub </a>
       </card>
@@ -29,5 +31,16 @@ export default {
   components: {
     Card,
   },
+  head() {
+    return {
+      title: 'Fresh, locally roasted coffee beans',
+      meta: [
+        {
+          hid: 'description',
+          name: 'coffee beans artisanal local roasted',
+        }
+      ]
+    }
+  }
 }
 </script>

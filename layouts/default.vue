@@ -6,10 +6,12 @@
       aria-label="main navigation"
     >
       <div class="navbar-brand">
-        <a class="navbar-item" href="/">
-          <img src="~assets/car-logo.png" alt="Buefy" height="28" />
-          Sanders Bros Coffee
-        </a>
+
+          <a class="navbar-item size-1" href="/">
+            <img src="~assets/images/car-logo.png" alt="Sanders Bros Coffee" height="28" />
+            Sanders Bros Coffee
+          </a>
+
 
         <div class="navbar-burger">
           <span />
@@ -71,6 +73,17 @@ export default {
         },
       ],
     }
+  },
+  head: {
+    titleTemplate: '%s - Sanders Bros Coffee | Murfreesboro, TN',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          'Fresh and locally roasted coffee beans in Murfreesboro TN, Rutherford County and surrounding areas.'
+      }
+    ]
   },
 }
 </script>

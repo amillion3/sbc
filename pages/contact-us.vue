@@ -12,5 +12,17 @@ export default {
   components: {
     Card,
   },
+  head() {
+    return {
+      title: 'Contact Us',
+      meta: [
+        {
+          hid: 'description',
+          name: 'coffee beans artisanal local roasted',
+          content: 'Get in touch with the Sanders Bros Coffee company'
+        }
+      ]
+    }
+  }
 }
 </script>
