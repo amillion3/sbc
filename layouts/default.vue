@@ -56,19 +56,19 @@ export default {
           to: { name: 'for-sale' },
         },
         {
-          title: 'Processing',
+          title: 'Process',
           to: { name: 'processing' },
         },
         {
-          title: 'Our Partners',
+          title: 'Partners',
           to: { name: 'our-partners' },
         },
         {
-          title: 'About Us',
+          title: 'About',
           to: { name: 'about-us' },
         },
         {
-          title: 'Contact Us',
+          title: 'Contact',
           to: { name: 'contact-us' },
         },
       ],

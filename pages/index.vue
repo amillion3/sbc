@@ -1,8 +1,9 @@
 <template>
   <section class="section">
-    <div class="columns is-mobile">
-      <h1 class="title">Welcome to Sanders Bros. Coffee</h1>
-    </div>
+<!--    <div class="columns is-mobile">-->
+      <h1 class="title has-text-centered mb-6">Fresh, locally roasted coffee</h1>
+      <h2 class="subtitle has-text-centered">Welcome to Sanders Bros. Coffee!</h2>
+<!--    </div>-->
   </section>
 </template>
 
@@ -24,3 +25,9 @@ export default {
   }
 }
 </script>
+
+<style>
+h1, h2 {
+  display: block;
+}
+</style>

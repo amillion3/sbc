@@ -4,22 +4,24 @@
       <div class="columns">
         <div class="column is-full">
           <h1 class="title">Processing</h1>
-          <h2 class="sub-title pb-4 px-6">Before specialty coffee is ready for your favorite mug, it must go through a
+          <h2 class="sub-title px-4">Before specialty coffee is ready for your favorite mug, it must go through a
             highly-monitored process. The
             beans are often hand-picked, dried on a patio or elevated table, sorted for defects, taken to a cupping
             table to be graded, and then bagged for export.
           </h2>
-          <img src="~assets/images/beans-4-colors.jpg" alt="Coffee beans">
-          <h2 class="sub-title pt-4 px-6">In the bean’s description you’ll see one of these processing methods farmers use to
+          <img
+            src="~assets/images/beans-4-colors.jpg"
+            alt="Coffee beans"
+            class="py-6"
+          >
+          <h2 class="sub-title px-4">In the bean’s description you’ll see one of these processing methods farmers use to
             produce the flavor
             profile they desire:</h2>
 
         </div>
       </div>
 
-      <div
-        class="columns  is-multiline"
-      >
+      <div class="columns is-multiline">
         <div
           v-for="(type, index) in types"
           :key="index"
@@ -30,9 +32,7 @@
             :description="type.description"
             :image-file-name="type.imageFileName"
           />
-
         </div>
-
       </div>
 
     </div>

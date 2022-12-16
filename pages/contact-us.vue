@@ -1,7 +1,7 @@
 <template>
-  <section class="mx-auto max-w-lg">
+  <section class="mx-auto form-container">
     <div class="container is-max-desktop">
-      <p class="mt-10 mb-6">
+      <p class="mb-6">
         We would love to hear from you! Please fill out the form below and we will get back with you
         soon.
       </p>
@@ -66,3 +66,11 @@ export default {
   }
 };
 </script>
+
+<style>
+.form-container {
+  max-width: 500px;
+  margin-top: 50px;
+}
+
+</style>

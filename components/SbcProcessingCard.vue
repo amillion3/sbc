@@ -1,5 +1,5 @@
 <template>
-  <div class="card mb-4 shadow-2xl">
+  <div class="card mb-4 shadow-xl">
     <div class="card-image">
       <figure class="image is-4by3">
         <img
@@ -42,7 +42,7 @@ export default {
 </script>
 
 <style>
-  .card {
-    /*max-width: 25%;*/
+  .shadow-xl {
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
   }
 </style>
