@@ -1,12 +1,6 @@
 <template>
   <section class="section">
     <h1 class="title has-text-centered mb-6">Our partners</h1>
-
-    <b-icon
-      icon="open-in-new"
-      size="is-medium">
-    </b-icon>
-
     <h2 class="subtitle">
       We believe in supporting those that produce our coffee! That's why we partner with farmers who do good things at
       the source, like building homes, schools, and churches.
