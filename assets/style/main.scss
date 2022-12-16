@@ -1,6 +1,10 @@
 // Import Bulma's core
 @import "../../node_modules/bulma/sass/utilities/all";
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 // Set your colors
 $primary: #ac3939;
 $primary-light: findLightColor($primary);

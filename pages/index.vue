@@ -1,36 +1,16 @@
 <template>
   <section class="section">
     <div class="columns is-mobile">
-      <h1>I am the title</h1>
-      <p>I am some other text that's important too</p>
-      <card title="Free" icon="github">
-        Open source on <a href="https://github.com/buefy/buefy"> GitHub </a>
-      </card>
-
-      <card title="Responsive" icon="cellphone-link">
-        <b class="has-text-grey"> Every </b> component is responsive
-      </card>
-
-      <card title="Modern" icon="alert-decagram">
-        Built with <a href="https://vuejs.org/"> Vue.js </a> and
-        <a href="http://bulma.io/"> Bulma </a>
-      </card>
-
-      <card title="Lightweight" icon="arrange-bring-to-front">
-        No other internal dependency
-      </card>
+      <h1 class="title">Welcome to Sanders Bros. Coffee</h1>
     </div>
   </section>
 </template>
 
 <script>
-import Card from '~/components/Card'
 
 export default {
   name: 'IndexPage',
-  components: {
-    Card,
-  },
+  components: {},
   head() {
     return {
       title: 'Fresh, locally roasted coffee beans',

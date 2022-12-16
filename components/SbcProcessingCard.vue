@@ -1,5 +1,5 @@
 <template>
-  <div class="card">
+  <div class="card mb-4 shadow-2xl">
     <div class="card-image">
       <figure class="image is-4by3">
         <img
@@ -8,14 +8,14 @@
         >
       </figure>
     </div>
-    <div class="card-content">
+    <div class="card-content has-background-primary">
       <div class="media-content">
-        <p class="title is-4">{{ title }}</p>
+        <p class="title is-4 text-center has-text-white">{{ title }}</p>
       </div>
     </div>
 
-    <div class="content">
-      {{ description }}
+    <div class="content has-background-grey-lighter">
+      <p class="p-4">{{ description }}</p>
     </div>
   </div>
 

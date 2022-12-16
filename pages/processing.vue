@@ -3,13 +3,14 @@
     <div class="container">
       <div class="columns">
         <div class="column is-full">
-          <img src="~assets/images/beans-4-colors.jpg" alt="Coffee beans">
-          <h1 class="sub-title">Before specialty coffee is ready for your favorite mug, it must go through a
+          <h1 class="title">Processing</h1>
+          <h2 class="sub-title pb-4 px-6">Before specialty coffee is ready for your favorite mug, it must go through a
             highly-monitored process. The
             beans are often hand-picked, dried on a patio or elevated table, sorted for defects, taken to a cupping
             table to be graded, and then bagged for export.
-          </h1>
-          <h2 class="sub-title">In the bean’s description you’ll see one of these processing methods farmers use to
+          </h2>
+          <img src="~assets/images/beans-4-colors.jpg" alt="Coffee beans">
+          <h2 class="sub-title pt-4 px-6">In the bean’s description you’ll see one of these processing methods farmers use to
             produce the flavor
             profile they desire:</h2>
 
