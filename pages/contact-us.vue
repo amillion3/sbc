@@ -6,41 +6,60 @@
         soon.
       </p>
       <form
-        name="contact"
+        name="sbc-contact"
         method="POST"
         data-netlify="true"
-        data-netlify-recaptcha="true"
       >
-        <div class="field">
-          <label class="label">Name</label>
-          <div class="control">
-            <input class="input" type="text" placeholder="Your name">
-          </div>
-        </div>
-
-        <div class="field">
-          <label class="label">Email</label>
-          <div class="control">
-            <input class="input" type="email" placeholder="Your email" value="">
-          </div>
-        </div>
-
-        <div class="field">
-          <label class="label">Message</label>
-          <div class="control">
-            <textarea class="textarea" placeholder="Your message"></textarea>
-          </div>
-        </div>
-
-        <div data-netlify-recaptcha="true"></div>
-
-        <div class="field is-grouped">
-          <div class="control">
-            <button type="submit" class="button is-primary">Submit</button>
-          </div>
-        </div>
-
+        <p>
+          <label>Your Name: <input type="text" name="name" /></label>
+        </p>
+        <p>
+          <label>Your Email: <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <label>Message: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
       </form>
+
+      <!--      <form-->
+<!--        name="contact"-->
+<!--        method="POST"-->
+<!--        data-netlify=true-->
+<!--      >-->
+<!--&lt;!&ndash;        data-netlify-recaptcha="true"&ndash;&gt;-->
+<!--        <div class="field">-->
+<!--          <label class="label">Name</label>-->
+<!--          <div class="control">-->
+<!--            <input class="input" type="text" placeholder="Your name">-->
+<!--          </div>-->
+<!--        </div>-->
+
+<!--        <div class="field">-->
+<!--          <label class="label">Email</label>-->
+<!--          <div class="control">-->
+<!--            <input class="input" type="email" placeholder="Your email" value="">-->
+<!--          </div>-->
+<!--        </div>-->
+
+<!--        <div class="field">-->
+<!--          <label class="label">Message</label>-->
+<!--          <div class="control">-->
+<!--            <textarea class="textarea" placeholder="Your message"></textarea>-->
+<!--          </div>-->
+<!--        </div>-->
+
+<!--&lt;!&ndash;        <div data-netlify-recaptcha="true"></div>&ndash;&gt;-->
+
+<!--        <div class="field is-grouped">-->
+<!--          <div class="control">-->
+<!--            <button type="submit" class="button is-primary">Submit</button>-->
+<!--          </div>-->
+<!--        </div>-->
+
+<!--      </form>-->
 
 
     </div>
