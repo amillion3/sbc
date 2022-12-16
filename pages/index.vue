@@ -1,29 +1,27 @@
 <template>
   <section class="section">
-<!--    <div class="columns is-mobile">-->
-      <h1 class="title has-text-centered mb-6">Fresh, locally roasted coffee</h1>
-      <h2 class="subtitle has-text-centered">Welcome to Sanders Bros. Coffee!</h2>
-<!--    </div>-->
+    <h1 class="title has-text-centered mb-6">Fresh, locally roasted coffee</h1>
+    <h2 class="subtitle has-text-centered">Welcome to Sanders Bros. Coffee!</h2>
   </section>
 </template>
 
 <script>
 
 export default {
-  name: 'IndexPage',
+  name: "IndexPage",
   components: {},
   head() {
     return {
-      title: 'Fresh, locally roasted coffee beans',
+      title: "Fresh, locally roasted coffee beans",
       meta: [
         {
-          hid: 'description',
-          name: 'coffee beans artisanal local roasted',
+          hid: "description",
+          name: "coffee beans artisanal local roasted"
         }
       ]
-    }
+    };
   }
-}
+};
 </script>
 
 <style>
