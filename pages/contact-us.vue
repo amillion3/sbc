@@ -1,35 +1,17 @@
 <template>
   <section class="mx-auto form-container">
     <div class="container is-max-desktop">
-      <p class="mb-6">
+      <p class="mb-6 px-4">
         We would love to hear from you! Please fill out the form below and we will get back with you
         soon.
       </p>
-      <form
-        name="sbc-contact"
-        method="POST"
-        data-netlify="true"
-      >
-        <p>
-          <label>Your Name: <input type="text" name="name" /></label>
-        </p>
-        <p>
-          <label>Your Email: <input type="email" name="email" /></label>
-        </p>
-        <p>
-          <label>Message: <textarea name="message"></textarea></label>
-        </p>
-        <p>
-          <button type="submit">Send</button>
-        </p>
-      </form>
 
       <form
-        name="sbc-contact-2"
+        name="sbc-contact-form"
         method="POST"
         data-netlify="true"
+        data-netlify-recaptcha="true"
       >
-        <!--        data-netlify-recaptcha="true"-->
         <div class="field">
           <label class="label">Name</label>
           <div class="control">
@@ -51,7 +33,7 @@
           </div>
         </div>
 
-        <!--        <div data-netlify-recaptcha="true"></div>-->
+        <div data-netlify-recaptcha="true"></div>
 
         <div class="field is-grouped">
           <div class="control">
