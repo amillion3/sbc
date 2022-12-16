@@ -24,42 +24,42 @@
         </p>
       </form>
 
-      <!--      <form-->
-<!--        name="contact"-->
-<!--        method="POST"-->
-<!--        data-netlify=true-->
-<!--      >-->
-<!--&lt;!&ndash;        data-netlify-recaptcha="true"&ndash;&gt;-->
-<!--        <div class="field">-->
-<!--          <label class="label">Name</label>-->
-<!--          <div class="control">-->
-<!--            <input class="input" type="text" placeholder="Your name">-->
-<!--          </div>-->
-<!--        </div>-->
+      <form
+        name="sbc-contact-2"
+        method="POST"
+        data-netlify="true"
+      >
+        <!--        data-netlify-recaptcha="true"-->
+        <div class="field">
+          <label class="label">Name</label>
+          <div class="control">
+            <input name="name" class="input" type="text" placeholder="Your name">
+          </div>
+        </div>
 
-<!--        <div class="field">-->
-<!--          <label class="label">Email</label>-->
-<!--          <div class="control">-->
-<!--            <input class="input" type="email" placeholder="Your email" value="">-->
-<!--          </div>-->
-<!--        </div>-->
+        <div class="field">
+          <label class="label">Email</label>
+          <div class="control">
+            <input name="email" class="input" type="email" placeholder="Your email" value="">
+          </div>
+        </div>
 
-<!--        <div class="field">-->
-<!--          <label class="label">Message</label>-->
-<!--          <div class="control">-->
-<!--            <textarea class="textarea" placeholder="Your message"></textarea>-->
-<!--          </div>-->
-<!--        </div>-->
+        <div class="field">
+          <label class="label">Message</label>
+          <div class="control">
+            <textarea name="message" class="textarea" placeholder="Your message"></textarea>
+          </div>
+        </div>
 
-<!--&lt;!&ndash;        <div data-netlify-recaptcha="true"></div>&ndash;&gt;-->
+        <!--        <div data-netlify-recaptcha="true"></div>-->
 
-<!--        <div class="field is-grouped">-->
-<!--          <div class="control">-->
-<!--            <button type="submit" class="button is-primary">Submit</button>-->
-<!--          </div>-->
-<!--        </div>-->
+        <div class="field is-grouped">
+          <div class="control">
+            <button type="submit" class="button is-primary">Submit</button>
+          </div>
+        </div>
 
-<!--      </form>-->
+      </form>
 
 
     </div>
