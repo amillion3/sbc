@@ -1,6 +1,12 @@
 <template>
   <section class="section">
     <h1 class="title has-text-centered mb-6">Our partners</h1>
+
+    <b-icon
+      icon="open-in-new"
+      size="is-medium">
+    </b-icon>
+
     <h2 class="subtitle">
       We believe in supporting those that produce our coffee! That's why we partner with farmers who do good things at
       the source, like building homes, schools, and churches.
@@ -12,8 +18,12 @@
     <div class="box">
       <p class="has-text-weight-bold">Ashley Williams - Legacy Farms Coffee</p>
       <p>
-        <a href="https://goo.gl/maps/refrDsXC3Zuztwzt9" target="_blank">
           Village of Cerro Bueno, Honduras (La Paz, Marcala)
+        <a href="https://goo.gl/maps/refrDsXC3Zuztwzt9" target="_blank">
+          <b-icon
+            icon="open-in-new"
+            size="is-small">
+          </b-icon>
         </a>
       </p>
       <p>
@@ -36,8 +46,12 @@
     <div class="box">
       <p>Dos Ninas Coffee - Schippers Family</p>
       <p>
-        <a href="https://goo.gl/maps/8bHRbuTWp75iZMZY6" target="_blank">
           Finca El Volcancito in Santa Rosa department, Guatemala
+        <a href="https://goo.gl/maps/8bHRbuTWp75iZMZY6" target="_blank">
+          <b-icon
+            icon="open-in-new"
+            size="is-small">
+          </b-icon>
         </a>
       </p>
       <p>Direct trade coffee</p>
